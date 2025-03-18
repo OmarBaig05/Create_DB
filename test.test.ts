@@ -3,7 +3,7 @@ config();
 
 import { createData, readData, updateData, deleteData } from './CRUD';
 
-jest.setTimeout(30000);
+jest.setTimeout(50000);
 
 // Each collection ID is assumed to be in your .env file.
 // Example: LAWYER_PROFILE_COLLECTION_ID=xxxxxx
